@@ -22,7 +22,7 @@ export function WizardFooter({
     loading
 }: WizardFooterProps) {
     return (
-        <div className="fixed bottom-0 left-64 right-0 p-4 bg-white border-t border-gray-200 flex items-center justify-between z-40">
+        <div className="fixed bottom-0 left-20 right-0 p-4 bg-white border-t border-gray-200 flex items-center justify-between z-40">
             <button
                 onClick={onPrev}
                 disabled={currentStep === 1 || prevDisabled || loading}
